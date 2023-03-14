@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./formularios.css" />
+    <script
+      src="https://kit.fontawesome.com/1782b73ad8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <i class="fa-brands fa-facebook"></i>
+        <h1 class="campo-formulario" id="titulo">Completemos su perfil:</h1>
+
+        <strong>Esto es texto en negrita</strong>
+        <em>Esto es texto en itálica</em>
+        <label class="campo-formulario"
+          >Nombre: <input type="text" placeholder="John"
+        /></label>
+        <label class="campo-formulario"
+          >Apellidos: <input type="text" placeholder="Doe"
+        /></label>
+        <label class="campo-formulario"
+          >Correo electrónico:
+          <input name="email" type="email" placeholder="john.doe@gmail.com"
+        /></label>
+        <label class="campo-formulario"
+          >Contraseña: <input type="password" placeholder="********"
+        /></label>
+        <label class="campo-formulario">Biografía: <textarea></textarea></label>
+        <fieldset>
+          <legend>Tecnologías que conoce:</legend>
+          <input type="checkbox" name="html" />
+          <label for="html">HTML</label>
+          <input type="checkbox" name="css" />
+          <label for="css">CSS</label>
+          <input type="checkbox" name="javascript" />
+          <label for="javascript">Javascript</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Género:</legend>
+          <input type="radio" id="masculino" name="genero" value="masculino" />
+          <label for="masculino">Masculino</label>
+          <input type="radio" id="femenino" name="genero" value="femenino" />
+          <label for="femenino">Femenino</label>
+          <input type="radio" id="otro" name="genero" value="otro" />
+          <label for="otro">Otro, prefiero no especificar.</label>
+        </fieldset>
+
+        <div class="campo-formulario">
+          <label for="provincia"> Provincia: </label>
+          <select name="provincia">
+            <option value="san-jose">San José</option>
+            <option value="alajuela">Alajuela</option>
+            <option value="cartago">Cartago</option>
+            <option value="heredia">Heredia</option>
+            <option value="guanacaste">Guanacaste</option>
+            <option value="puntarenas">Puntarenas</option>
+            <option value="limon">Limón</option>
+          </select>
+        </div>
+
+        <label for="cedula">Cédula: </label>
+        <input type="number" name="cedula" placeholder="1-1111-1111" />
+
+        <label for="fecha-nacimiento">
+          Fecha de nacimiento:
+          <input type="date" name="fecha-nacimiento" />
+        </label>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" />
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
+<div style="display: flex">
+  <div>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </div>
+  <div>
+    <img />
+  </div>
+</div>

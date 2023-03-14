@@ -1,0 +1,56 @@
+.beige {
+  background-color: beige;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.negro {
+  background-color: black;
+}
+
+.azulcielo {
+  background-color: skyblue;
+}
+
+.cafe {
+  background-color: brown;
+}
+
+.morado {
+  background-color: blueviolet;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.dorado {
+  background-color: darkgoldenrod;
+}
+
+.verde {
+  background-color: green;
+}
+
+.azulchillon {
+  background-color: aqua;
+}
+
+.rojorosado {
+  background-color: crimson;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  border-spacing: 5px;
+}

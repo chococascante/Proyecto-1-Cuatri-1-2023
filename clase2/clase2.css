@@ -1,0 +1,33 @@
+p {
+  color: #333;
+}
+
+.texto-grande {
+  font-size: 32px;
+  color: darkgoldenrod;
+}
+
+.texto-dorado-en-negrita {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.caja {
+  border: 1px solid #000;
+}
+
+#otro-parrafo {
+  color: blue;
+}
+
+#otro-color {
+  color: beige;
+}
+
+.color-azul {
+  color: blue;
+}
+
+.color-amarillo {
+  color: yellow;
+}

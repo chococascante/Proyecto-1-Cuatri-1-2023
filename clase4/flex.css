@@ -1,0 +1,40 @@
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  padding: 0 20px;
+}
+
+.navegacion {
+  display: flex;
+  align-items: center;
+}
+
+.lista-navegacion {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.inputs-en-fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.medio-input {
+  width: 42%;
+}
+
+body {
+  margin: 0px;
+}
+
+.fila {
+  display: flex;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+}
