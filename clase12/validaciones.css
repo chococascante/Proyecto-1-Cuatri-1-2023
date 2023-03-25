@@ -1,0 +1,13 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+}

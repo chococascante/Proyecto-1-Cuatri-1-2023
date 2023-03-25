@@ -100,6 +100,18 @@ function mapCriollo(arreglo, funcion) {
   return nuevoArreglo; // ["Luis Cascante", "Sienna Cascante"]
 }
 
+function devolverNombreCompleto(estudiante) {
+  return `${estudiante.nombre} ${estudiante.apellido}`;
+}
+
+devolverNombreCompleto();
+const nuevoArreglo1 = mapCriollo(listaEstudiantes, devolverNombreCompleto);
+const nuevoArreglo2 = mapCriollo(listaEstudiantes, function (estudiante) {
+  return `Nombre completo: ${estudiante.nombre} ${estudiante.apellido}, edad: ${estudiante.edad}`;
+});
+
+// ----------------------------------------------------
+
 function sumar(num1, num2) {
   return num1 + num2;
 }
@@ -107,13 +119,6 @@ function sumar(num1, num2) {
 const numero1 = 1;
 const numero2 = 2;
 const resultado = sumar(numero1, numero2);
-
-function devolverNombreCompleto(estudiante) {
-  return `${estudiante.nombre} ${estudiante.apellido}`;
-}
-devolverNombreCompleto();
-
-const nuevoArreglo1 = mapCriollo(listaEstudiantes, devolverNombreCompleto);
 
 console.log(listaEstudiantes);
 console.log(nuevoArreglo);

@@ -1,0 +1,34 @@
+.lista-traslado--item {
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.lista-traslados {
+  display: flex;
+}
+
+.lista-traslados > li {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 720px) {
+  .lista-traslados {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-contenido {
+  display: none;
+  position: absolute;
+}
+
+.menu:hover .menu-contenido {
+  display: block;
+}

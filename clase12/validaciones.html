@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./validaciones.css" rel="stylesheet" />
+    <script src="./validaciones.js"></script>
+  </head>
+  <body>
+    <form class="formulario" id="formulario">
+      <label>
+        Nombre:
+        <input type="text" name="nombre" id="nombre" />
+        <span id="helper-nombre" class="error"></span>
+      </label>
+
+      <label>
+        Apellido:
+        <input type="text" name="apellido" id="apellido" />
+        <span id="helper-apellido" class="error"></span>
+      </label>
+
+      <label>
+        Email:
+        <input type="email" name="email" id="email" />
+        <span id="helper-email" class="error"></span>
+      </label>
+
+      <label>
+        Contraseña:
+        <input type="password" name="password" id="password" />
+        <span id="helper-password">Debe tener mínimo 8 caracteres.</span>
+      </label>
+
+      <label>
+        Repetir contraseña:
+        <input type="password" name="password2" id="password2" />
+        <span id="helper-password2">Debe ser igual a la contraseña.</span>
+      </label>
+
+      <label>
+        Fecha de nacimiento:
+        <input type="date" name="fecha" id="fecha" />
+        <span id="helper-fecha" class="error"></span>
+      </label>
+
+      <label>
+        <input type="checkbox" name="terminos" id="terminos" />
+        Acepto los terminos y condiciones
+        <span id="helper-terminos" class="error"></span>
+      </label>
+
+      <button id="boton-formulario">Enviar formulario</button>
+    </form>
+  </body>
+</html>

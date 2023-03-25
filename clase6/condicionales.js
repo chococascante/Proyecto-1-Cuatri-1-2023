@@ -35,3 +35,15 @@ switch (valor) {
   default:
     return "Estoy en default";
 }
+
+const ruta = "/hamburguesa";
+switch (ruta) {
+  case "/hamburguesa":
+    return "Hamburguesa";
+  case "/pizza":
+    return "Pizza";
+  case "/sushi":
+    return "Sushi";
+  default:
+    return "No encontré la ruta";
+}

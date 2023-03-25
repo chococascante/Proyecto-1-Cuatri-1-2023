@@ -19,7 +19,6 @@
  * 5.  Escriba una función que "revuelva" un arreglo.
  * O sea, que cambie los elementos de posición al azar.
  * Pueden usar Math.random()
- *
  */
 
 /**
