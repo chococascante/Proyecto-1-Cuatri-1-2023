@@ -115,4 +115,6 @@ function enviarFormulario(evento) {
       helperAceptaTerminos.innerHTML = "";
     }
   }
+
+  window.location;
 }
