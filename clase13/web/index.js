@@ -1,21 +1,23 @@
 window.onload = function () {
   const boton = document.getElementById("boton");
 
-  let cloudinaryWidget = cloudinary.createUploadWidget(
+  let myWidget = cloudinary.createUploadWidget(
     {
-      cloud_name: "dezdyauun",
-      preset: "luiscascante",
+      cloudName: "dezdyauun",
+      uploadPreset: "luiscascante",
     },
     (error, result) => {
-      if (result.event === "success") {
-        console.log("Imagen subida con éxito", result.info);
-        const imagen = document.getElementById("foto");
-        imagen.src = result.info.secure_url;
+      if (!error && result && result.event === "success") {
+        console.log("Done! Here is the image info: ", result.info);
       }
     }
   );
 
-  boton.addEventListener("click", function () {
-    cloudinaryWidget.open();
-  });
+  boton.addEventListener(
+    "click",
+    function () {
+      myWidget.open();
+    },
+    false
+  );
 };
